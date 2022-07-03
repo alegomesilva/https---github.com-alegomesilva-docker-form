@@ -1,0 +1,21 @@
+table, th, td{
+  border: black 1px solid;
+}
+
+table{
+  width:1000px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: center;
+  width: fit-content;
+}
+
+thead,tbody{
+  width: 900px;
+}
+
+th, td {
+  text-align: center;
+  width: 300px;
+}
