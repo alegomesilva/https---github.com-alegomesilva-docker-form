@@ -8,5 +8,5 @@ export const connection = new pg.Client({
     host: 'localhost',
     database: 'postgres',
     password: 'postgres',
-    port: '2008',    
+    port: '5432',    
 });
